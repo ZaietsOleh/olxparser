@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olx parser</title>
+</head>
+<body>
+<h1>Olx Parser</h1>
+<form action="#" th:action="@{/parsing}" th:object="${parsingData}" method="post">
+    <p>Type parsing template: <input type="text" th:field="*{data}" /></p>
+    <button type="submit">Parse</button>
+</form>
+<h4>Zaiets Oleh / 122-20ck-1</h4>
+</body>
+</html>
